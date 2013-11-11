@@ -1,2 +1,4 @@
+removed_sources:
+  Perl-Critic-More-1.000.tar.gz: a5525228e4241d95d770f49a0ae6d7a00e911707
 sources:
-  "Perl-Critic-More-1.000.tar.gz": a5525228e4241d95d770f49a0ae6d7a00e911707
+  Perl-Critic-More-1.003.tar.gz: 60afd23e0a7f6950cd6f3ac59b946f07cd61e5d2
