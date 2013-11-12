@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Critic-More
-%define upstream_version 1.000
+%define upstream_version 1.003
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Stop mixing long strings with code
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Perl/Perl-Critic-More-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Perl::Critic)
@@ -54,4 +54,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Wed Aug 25 2010 Jérôme Quelin <jquelin@mandriva.org> 1.0.0-1mdv2011.0
 + Revision: 573144
 - import perl-Perl-Critic-More
+
 
